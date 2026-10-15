@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 16px 130px;
+}
+ 
+nav a {
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    background: linear-gradient(
+        180deg,
+        #3f89de 0%,
+        #8c7fe0 30%,
+        #E67E5C 65%,
+        #FF7F50 85%,
+        #FFB347 100%
+    );
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+ 
+nav a:hover {
+    background: #d3ae08;
+}
+ 
+h2 {
+    clear: both;
+}
+ 
+.templefig {
+    border: 2px solid black;
+    background-color: white;
+    width: 150px;
+    margin: 0;
+    overflow: hidden;
+}
+ 
+.templefig img {
+    width: 100%;
+    display: block;
+}
+ 
+.templefig figcaption {
+    padding: 4px;
+    font-size: 0.85rem;
+    text-align: center;
+}
+ 
+.float-left {
+    float: left;
+    margin: 0 16px 8px 0;
+}
+ 
+.relative {
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+ 
+.absolute {
+    position: absolute;
+    top: 350px;
+    right: 0;
+}
+ 
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+}
